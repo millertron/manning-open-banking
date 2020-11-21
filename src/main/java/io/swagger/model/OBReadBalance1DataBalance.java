@@ -1,19 +1,15 @@
 package io.swagger.model;
 
-import java.util.Objects;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.model.OBBalanceType1Code;
-import io.swagger.model.OBCreditDebitCode2;
-import io.swagger.model.OBReadBalance1DataAmount;
-import io.swagger.model.OBReadBalance1DataCreditLine;
-import io.swagger.v3.oas.annotations.media.Schema;
 import java.util.ArrayList;
 import java.util.List;
-import org.threeten.bp.OffsetDateTime;
-import org.springframework.validation.annotation.Validated;
+import java.util.Objects;
 import javax.validation.Valid;
-import javax.validation.constraints.*;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+import org.springframework.validation.annotation.Validated;
+import org.threeten.bp.OffsetDateTime;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import io.swagger.v3.oas.annotations.media.Schema;
 
 /**
  * Set of elements used to define the balance details.

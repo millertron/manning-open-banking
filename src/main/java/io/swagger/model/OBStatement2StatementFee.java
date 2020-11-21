@@ -1,15 +1,13 @@
 package io.swagger.model;
 
-import java.util.Objects;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.model.OBActiveOrHistoricCurrencyAndAmount6;
-import io.swagger.model.OBCreditDebitCode0;
-import io.swagger.v3.oas.annotations.media.Schema;
 import java.math.BigDecimal;
-import org.springframework.validation.annotation.Validated;
+import java.util.Objects;
 import javax.validation.Valid;
-import javax.validation.constraints.*;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+import org.springframework.validation.annotation.Validated;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import io.swagger.v3.oas.annotations.media.Schema;
 
 /**
  * Set of elements used to provide details of a fee for the statement resource.

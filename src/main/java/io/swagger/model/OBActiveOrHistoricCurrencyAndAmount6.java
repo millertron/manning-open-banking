@@ -1,12 +1,11 @@
 package io.swagger.model;
 
 import java.util.Objects;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.v3.oas.annotations.media.Schema;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
 import org.springframework.validation.annotation.Validated;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import io.swagger.v3.oas.annotations.media.Schema;
 
 /**
  * Amount of money associated with the statement fee type.
@@ -35,7 +34,7 @@ public class OBActiveOrHistoricCurrencyAndAmount6   {
   @Schema(required = true, description = "")
       @NotNull
 
-  @Pattern(regexp="^\d{1,13}$|^\d{1,13}\.\d{1,5}$")   public String getAmount() {
+  @Pattern(regexp="^\\d{1,13}$|^\\d{1,13}\\.\\d{1,5}$")   public String getAmount() {
     return amount;
   }
 

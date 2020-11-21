@@ -1,26 +1,14 @@
 package io.swagger.model;
 
-import java.util.Objects;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.model.OBFeeCategory1Code;
-import io.swagger.model.OBFeeFrequency1Code2;
-import io.swagger.model.OBFeeFrequency1Code3;
-import io.swagger.model.OBFeeType1Code;
-import io.swagger.model.OBInterestRateType1Code1;
-import io.swagger.model.OBOtherCodeType10;
-import io.swagger.model.OBOtherCodeType16;
-import io.swagger.model.OBOtherCodeType17;
-import io.swagger.model.OBOtherCodeType18;
-import io.swagger.model.OBOtherFeeChargeDetailType;
-import io.swagger.model.OBReadProduct2DataOtherProductTypeFeeApplicableRange;
-import io.swagger.model.OBReadProduct2DataOtherProductTypeFeeChargeCap;
-import io.swagger.v3.oas.annotations.media.Schema;
 import java.util.ArrayList;
 import java.util.List;
-import org.springframework.validation.annotation.Validated;
+import java.util.Objects;
 import javax.validation.Valid;
-import javax.validation.constraints.*;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
+import org.springframework.validation.annotation.Validated;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import io.swagger.v3.oas.annotations.media.Schema;
 
 /**
  * Other fees/charges details

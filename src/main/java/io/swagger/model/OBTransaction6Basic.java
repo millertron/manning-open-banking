@@ -1,25 +1,15 @@
 package io.swagger.model;
 
-import java.util.Objects;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.model.OBActiveOrHistoricCurrencyAndAmount10;
-import io.swagger.model.OBActiveOrHistoricCurrencyAndAmount9;
-import io.swagger.model.OBBankTransactionCodeStructure1;
-import io.swagger.model.OBCreditDebitCode1;
-import io.swagger.model.OBCurrencyExchange5;
-import io.swagger.model.OBEntryStatus1Code;
-import io.swagger.model.OBSupplementaryData1;
-import io.swagger.model.OBTransactionCardInstrument1;
-import io.swagger.model.OBTransactionMutability1Code;
-import io.swagger.model.ProprietaryBankTransactionCodeStructure1;
-import io.swagger.v3.oas.annotations.media.Schema;
 import java.util.ArrayList;
 import java.util.List;
-import org.threeten.bp.OffsetDateTime;
-import org.springframework.validation.annotation.Validated;
+import java.util.Objects;
 import javax.validation.Valid;
-import javax.validation.constraints.*;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+import org.springframework.validation.annotation.Validated;
+import org.threeten.bp.OffsetDateTime;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import io.swagger.v3.oas.annotations.media.Schema;
 
 /**
  * Provides further details on an entry in the report.

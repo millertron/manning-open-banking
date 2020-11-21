@@ -1,10 +1,8 @@
 package io.swagger.model;
 
 import java.util.Objects;
-import io.swagger.v3.oas.annotations.media.Schema;
 import org.springframework.validation.annotation.Validated;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
 
 /**
  * The Risk section is sent by the initiating party to the ASPSP. It is used to specify additional details for risk scoring for Account Info.

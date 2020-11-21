@@ -1,10 +1,8 @@
 package io.swagger.model;
 
 import java.util.Objects;
-import io.swagger.v3.oas.annotations.media.Schema;
 import org.springframework.validation.annotation.Validated;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
 
 /**
  * Additional information that can not be captured in the structured fields and/or any other specific block.

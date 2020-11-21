@@ -1,13 +1,11 @@
 package io.swagger.model;
 
 import java.util.Objects;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.model.OBActiveOrHistoricCurrencyAndAmount5;
-import io.swagger.v3.oas.annotations.media.Schema;
-import org.springframework.validation.annotation.Validated;
 import javax.validation.Valid;
-import javax.validation.constraints.*;
+import javax.validation.constraints.NotNull;
+import org.springframework.validation.annotation.Validated;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import io.swagger.v3.oas.annotations.media.Schema;
 
 /**
  * Set of elements used to provide details of a benefit or reward amount for the statement resource.
